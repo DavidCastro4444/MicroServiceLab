@@ -1,1 +1,6 @@
-# MicroServiceLab
+# MicroServiceLaIntroducción al Laboratorio de Microservicios con Spring Boot y Docker
+En este laboratorio construimos un microservicio básico utilizando Spring Boot, el cual responde con un simple "Hello, World!". Comenzamos creando un repositorio en GitHub y usando GitHub Codespaces como entorno de desarrollo, lo cual nos permite trabajar en la nube sin necesidad de instalar Java, Maven o Docker en nuestro computador.
+
+Luego generamos el proyecto con Spring Initializr, creamos el controlador para nuestro endpoint /hello, y empaquetamos todo en una imagen Docker mediante un Dockerfile. Esto nos enseña cómo hacer que una aplicación sea portátil y fácil de ejecutar en cualquier entorno. Subimos la imagen a Docker Hub para poder acceder a ella desde cualquier lugar.
+
+Finalmente, usamos Play with Docker para probar nuestra imagen en la nube, sin depender de una máquina física. Con esto, cubrimos el ciclo completo: desarrollo, empaquetado, publicación y ejecución de un microservicio. Es una introducción práctica a conceptos clave en el desarrollo moderno de software distribuido.
